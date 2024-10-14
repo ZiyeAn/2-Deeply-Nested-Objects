@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ziye An Portfolio</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="site-header">
+        <nav class="navbar">
+            <ul>
+            <li><a href="index.html">Ziye An </a></li>|
+            <li><a href="#container"> Projects </a></li>|
+            <li><a href="#about"> About </a></li>|
+            <li><a href="#contact"> Contact </a></li>
+            </ul>
+        </nav>  
+    </header>
+    <!-- homepage imgae -->
+    <div class = "parallax"></div>
+    
+    <!-- project: table of content -->
+    <section id="project-container">
+        <div class="category-select">
+            <!-- Tab buttons for categories -->
+            <button class="tablink" onclick="openPage('All', this, 'white')" id="defaultOpen">All</button>
+            <button class="tablink" onclick="openPage('Art', this, 'white')">Art</button>
+            <button class="tablink" onclick="openPage('Tech', this, 'white')">Tech</button>
+            <button class="tablink" onclick="openPage('Websites', this, 'white')">Websites</button>
+            <!-- Tab content for each category -->
+        
+            <div id="All" class="tabcontent">
+                <h3>All Projects</h3>
+                <div id="all-projects-container">
+                    <div class = "project-coloum">
+                    </div>
+                </div>
+            </div>
+
+            <div id="Art" class="tabcontent">
+            <h3>Art Projects</h3>
+            <div id="art-projects-container"></div>
+            </div>
+
+            <div id="Tech" class="tabcontent">
+            <h3>Tech Projects</h3>
+            <div id="tech-projects-container"></div>
+            </div>
+
+            <div id="Websites" class="tabcontent">
+            <h3>Website Projects</h3>
+            <div id="web-projects-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about  -->
+    <!-- <section id ="about">
+        <p>about</p>
+    </section> -->
+
+    <!-- contact -->
+    <!-- <section id = "contact">
+        <p>contact</p>
+    </section> -->
+
+    <script src="script.js"></script>
+</body>
+</html>

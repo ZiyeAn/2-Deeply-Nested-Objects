@@ -1,0 +1,87 @@
+{
+  "projects":[
+      {
+        "category": "Art",
+        "works": [
+          {
+            "name": "Ophelia",
+            "date": "May 12th, 2023",
+            "medium": ["Plaster", "Wire", "Paper"],
+            "tags": ["sculpture", "plaster"],
+            "documentation": {
+              "process": "assets/Ophelia1.jpg",
+              "finalLook": "assets/Ophelia2.jpg"
+            },
+            "description": "For this project, I created a plaster-casting sculpture that captures the ethereal essence of a floating person. Since it is hard to cast the whole body, I start to consider a good way of letting body parts combine to form a harmonious sculpture. And the image of a swimming person inspires me to do my piece in this way. The painting Ophelias also inspires me to do this work. My plaster-casting sculpture captures the ethereal essence of a floating person, showcasing select parts of their face and hands in detail. Through this piece, I want to convey the beauty and mystery of weightlessness. I would like to explore the contest between the solid plaster texture and such weightlessness."
+          },
+          {
+            "name": "BONE CLOCK",
+            "date": "March 6, 2023",
+            "medium": ["acrylic"],
+            "tags": ["wearable sculpture"],
+            "documentation": {
+              "process": "",
+              "finalLook": "assets/boneclock.jpg"
+            },
+            "description": "The concept of time and my anxiety are closely related like rotating gears. Whenever I fell anxious, my body is tense, my nerves are stiff, and I feel like I am being stretched with the rotation of clock gears. So, I came up with this design. As the clock gears turn. The spine of my back is slowly being pulled tighter by the minute. When it is worn on my body, the audience can also feel what I feel."
+          }
+        ]
+      },
+      {
+        "category": "Tech",
+        "works": [
+          {
+            "name": "Ideas in forms",
+            "date": "Nov, 2023",
+            "medium": ["p5.js", "Arduino", "acrylic"],
+            "tags": ["p5.js", "Arduino"],
+            "documentation": {
+              "process": "assets/ideaInForms1.JPG",
+              "finalLook": "assets/ideaInForms2.jpg"
+            },
+            "description": "P5.js is used to create a game showing the problem ‘marriage Premium’ based on my parent’s story, users are able to make choice and decide the life of this couple. And the scale is gonna tilt by the servo motor to show the unequal result. I wanted to show that even though there are choices given and seems like that people could be able to fight against this inequality, the balance is still telling you that inequality still exists regardless of personal effort since unless the idea and policy changed, such discrimination and difficulties would never end."
+          },
+          {
+            "name": "THE FORESAKING",
+            "date": "DEC, 2023",
+            "medium": ["p5.js", "Arduino", "acrylic"],
+            "tags": ["p5.js", "Arduino"],
+            "documentation": {
+              "process": "",
+              "finalLook": ""
+            },
+            "description": "Inspired by the game Zelda: Breath of the Wild, which gamers place offerings to receive gifts from the Goddess. I wanted to present the culture of sacrifice ritual. Sacrifice ritual It is an act of offering and praying to the gods, saints, or dead souls with offerings such as wine, meat, fruits and vegetables, cloth, silk, and jade (traditional Confucian rituals). Some of the graphics in this project are referred to the ritual mentioned in ShanHai Jin, a book records mythological animals and gods.By putting offering on the platform, the photoresistor inside will be triggered and thus start the P5.js animation and led strips which would light up the background acrylic board. The lasered-cutted pattern will therefore glow." 
+          }
+        ]
+      },
+      {
+        "category": "Website",
+        "works": [
+          {
+            "name": "Multiple Perspectives",
+            "date": "2024",
+            "medium": ["html","css"],
+            "tags": ["websites"],
+            "links":"https://ziyean.github.io/-2-Different-Perspective/",
+            "documentation": {
+              "process": "",
+              "finalLook": "assets/multiplePerspective.png"
+            },
+            "description": "In this project, I wanted to explore different cultural perspective of an apple. I choose apple as my subject mainly because that is a fruit I think is normal but my mom always push me to eat. She never stop bragging how good it is to eat apples, so I wanted to figure out how poeple from the world view this normal fruit. I also include how I view it at the final section cuz I want also a private perspective of apples.The childish and handwritten art style is specifically chosen and referenced on my childhood diary. I remembered even thhough I hated it so much but as a kid I have no power to reject eating apples so I could only curse apples secretly in my diary.I used only grid for my pages since I like how it is more fixed that flexbox. I utilized it for decoration and page-switching menu. In the home page, I used it to add stars on two sides of the apple slices. In those subpages, I use them to create a small page-switching interface at the very bottom. Since I wanted this website to be more childlike and diary-like, I decided to use as less text as possible and make all the subpages looks more unified in forms, so I didn't change the way I use flexbox a lot in each subpage."
+          },
+          {
+            "name": "What to Cook Today?",
+            "date": "2024",
+            "medium": ["html","css","javascript"],
+            "tags": ["websites"],
+            "links":"https://ziyean.github.io/-3-Community-Tool-or-Quiz/",
+            "documentation": {
+              "process": "",
+              "finalLook": "assets/whatToCook.png"
+            },
+            "description": "In this project, I was thinking about making a simple starter recipe for kids to follow. There are many recipe online and most of them are full fo text and images, it's not easy for kids to read and focus. I try to make the process as simple as possile so that it's not intimidating for kids to start cooking and follow.I tried to keep the webpage simple and colorful to prevent kids from distracting and easy for kids to operate."
+          } 
+        ]
+      }
+    ]
+  }
